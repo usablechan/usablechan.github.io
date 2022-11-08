@@ -110,10 +110,10 @@ author:
   email:
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: mailto:lch8910@naver.com
     - label: "Website"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://usablechan.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -126,10 +126,10 @@ author:
 footer:
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: mailto:lch8910@naver.com
     - label: "Website"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://usablechan.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
