@@ -1,5 +1,5 @@
 ---
-title: "markdwon code block 왜 포스팅이 안되지"
+title: "markdwon code block"
 excerpt: "how to use code block in markdown and language support"
 
 categories:
