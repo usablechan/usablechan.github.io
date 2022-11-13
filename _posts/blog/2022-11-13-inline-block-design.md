@@ -3,7 +3,10 @@ title: "github blog 인라인 코드블록 설정방법"
 excerpt: "inline block css 설정방법"
 
 categories:
-  - Blog
+  - blog
+tag:
+  - markdown
+  - blog custom
 
 toc: true
 toc_sticky: true

@@ -3,7 +3,9 @@ title: "markdwon code block"
 excerpt: "how to use code block in markdown and language support"
 
 categories:
-  - Blog
+  - blog
+tag:
+  - markdown
 
 date: 2022-11-11 12:49:00+0900
 

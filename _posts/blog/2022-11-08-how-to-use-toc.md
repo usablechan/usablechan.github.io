@@ -1,9 +1,10 @@
 ---
 title: "toc(table of contents) 설정방법"
 categories:
-  - Blog
+  - blog
 tag:
-  - Blog
+  - markdown
+  - toc
 date: 2022-11-08
 
 last_modified_at: 2022-11-08
