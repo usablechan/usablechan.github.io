@@ -11,11 +11,34 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
+        <span class="nav__sub-title">javascript</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "js practice" %}
+                        <li><a href="/categories/js-practice" class="">Pratice Project ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">python</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "python" %}
+                        <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">coding test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "algorithm" %}
-                        <li><a href="/categories/blog" class="">Algorithm ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">Algorithm ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "challenge" %}
+                        <li><a href="/categories/challenge" class="">Challenge ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -24,6 +47,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "blog" %}
                         <li><a href="/categories/blog" class="">Blog Dev ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "diary" %}
+                        <li><a href="/categories/diary" class="">Diary ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
