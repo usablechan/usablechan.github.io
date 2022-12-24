@@ -14,6 +14,13 @@
         <span class="nav__sub-title">javascript</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "js" %}
+                        <li><a href="/categories/js" class="">Javascript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "js practice" %}
                         <li><a href="/categories/js-practice" class="">Pratice Project ({{category[1].size}})</a></li>
                     {% endif %}
@@ -24,6 +31,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "python" %}
                         <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">computer science</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "os" %}
+                        <li><a href="/categories/os" class="">Operating System ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -47,6 +62,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "blog" %}
                         <li><a href="/categories/blog" class="">Blog Dev ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "git" %}
+                        <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
