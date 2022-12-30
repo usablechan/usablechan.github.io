@@ -107,18 +107,18 @@ author:
   name: "Usablechan"
   avatar: "/assets/images/mangu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "이것 저것 기록하는 사람"
-  location: "South Korea"
+  location: 
   email:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:lch8910@naver.com
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: mailto:lch8910@naver.com
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://usablechan.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/usablechan"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/usablechan"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/usablechan"
