@@ -42,9 +42,9 @@ rgb 표현, 단어 표현, hex 표현이 랜덤으로 나와서 알고보니 배
 
 document 가장 상단 tag는 프로퍼티로 접근가능
 
-- <html>  : document.documentElement
-- <body> : document.body
-- <head> : document.head
+- `<html>` : document.documentElement
+- `<body>` : document.body
+- `<head>` : document.head
 
 ### js 에서 16진수 변환
 
@@ -231,3 +231,4 @@ document.body.style.backgroundColor = colors[randomNum];
 
 </div>
 </details>
+```
