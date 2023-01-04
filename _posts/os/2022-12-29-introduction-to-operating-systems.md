@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Operating Systems"
-excerpt:
+excerpt: "OS강의 OT"
 
 categories:
   - os

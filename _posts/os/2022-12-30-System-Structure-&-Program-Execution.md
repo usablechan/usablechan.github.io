@@ -1,6 +1,6 @@
 ---
 title: "System Structure & Program Execution"
-excerpt:
+excerpt: "CPU제어권 과 I/O에 대한 이야기"
 
 categories:
   - os

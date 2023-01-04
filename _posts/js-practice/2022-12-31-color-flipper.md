@@ -1,6 +1,6 @@
 ---
 title: "color flipper"
-excerpt:
+excerpt: "js 연습 프로젝트 No.1 color flipper"
 
 categories:
   - js practice
